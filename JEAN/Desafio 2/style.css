@@ -1,0 +1,30 @@
+#topo{
+    border: 3px solid orange;
+    background-color: orange;
+    text-align: center
+}
+.quadrados{
+    border: 3px;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+.imagem{
+    margin-top: 0%
+    height: 100%;
+    width: 95%;
+    object-fit: contain;
+    margin-left: 15px;
+}
+.titulos{
+    text-align: left;
+    margin-left: 15px;
+
+}
+.texto{
+    color: orange;
+}
+.paragra{
+    margin-left: 15px
+}
