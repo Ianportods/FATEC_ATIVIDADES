@@ -1,0 +1,19 @@
+@app.route('/all/')
+def all():
+    conn = sqlite3.connect('database.db')
+    cur = conn.cursor()
+    cur.execute("select * from alunos")
+    chamado = cur.fetchall()
+    conn.close()
+    return render_template('all.html',chamados=chamados_abertos)
+
+
+
+
+
+
+
+
+
+
+lalala

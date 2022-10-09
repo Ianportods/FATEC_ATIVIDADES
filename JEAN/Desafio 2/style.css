@@ -1,7 +1,8 @@
 #topo{
     border: 3px solid orange;
     background-color: orange;
-    text-align: center
+    text-align: center;
+    margin-top: -10px;
 }
 .quadrados{
     border: 3px;
@@ -27,4 +28,16 @@
 }
 .paragra{
     margin-left: 15px
+}
+#link{
+    word-spacing: 20px;
+    color: white;
+}
+.lateral{
+    border: 3px;
+    width: 200px;
+    height: 150px;
+    margin-left: 77%;
+    background-color: white;
+    margin-top: -77%
 }
