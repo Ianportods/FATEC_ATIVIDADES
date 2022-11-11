@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+<body style="background-image:url(../static/fundo2.png);">
+    <div>
+        <img style="margin: auto; display: inline" src="../static/logo.png" alt="logo.png">
+    </div>
+    <div style="text-align:right">
+            <a href="{{url_for('quemsomos')}}" rel="next" target="_self"><button>Quem somos</button></a>
+            <a href="{{url_for('index')}}" rel="next" target="_self"><button>Home</button></a>
+            <a href="{{url_for('contato')}}" rel="next" target="_self"><button>Contato</button></a>
+    </div>
+    <h1>Entre em contato</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <hr>
+    <p>seu email:</p>
+    <textarea name="email" id="" value="{{email}}" cols="30" rows="1"></textarea>
+    <p>assunto</p>
+    <textarea name="assunto" id="" cols="30" rows="1"></textarea>
+    <p>descrição</p>
+    <textarea name="descrição" id="" cols="30" rows="3"></textarea> <br>
+    <button>enviar</button>
+</body>
+</html>
